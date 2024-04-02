@@ -17,7 +17,7 @@ source("submission.R")
 print_usage <- function() {
   cat("Usage:\n")
   cat("  Rscript script.R DATA_FILE BACKGROUND_DATA_FILE [--output OUTPUT_FILE]\n")
-}
+ }
 
 parse_arguments <- function() {
   args <- list()
